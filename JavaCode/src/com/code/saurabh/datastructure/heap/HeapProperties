@@ -1,0 +1,19 @@
+1. Heap is a special kind of balanced binary tree.
+2. Heap data structure is of two types: min heap and max heap.
+2.i)  In min heap, parent's key is always less than equal to all of it children.
+2.ii) In max heap, parent's key is always greater than equal to all of it children.
+
+Insertion basic logic
+* Add new element in the end of heap (heap is usually built using array, not necessarily). 
+If parent is less (in case of max heap) than new element than replace, else break
+
+Removal basic logic
+* Removal always happen from the root. Take last element from heap and place it on root.
+Check if new element is not keeping heap property, if not then swap with child else break.
+
+
+
+
+
+References:
+https://www.geeksforgeeks.org/heap-data-structure/
